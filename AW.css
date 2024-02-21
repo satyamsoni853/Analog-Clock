@@ -1,0 +1,56 @@
+body{
+    background-image: url(./pexels-khadijah-19284311.jpg);
+    background-repeat: no-repeat;
+   
+    background-size: cover;
+}
+
+#clock-container{
+    /* background-color: red; */
+    position: relative;
+    margin: auto;
+    height: 40vw;
+    width: 40vw;
+    background-image: url(./pngegg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid black;
+    
+
+}
+#hour,#minute,#secound{
+    position: absolute;
+
+    background: black;
+    border-radius: 10px;
+    /* height: 5px; */
+
+}
+#hour{
+    width: 2%;
+    height: 20%;
+    color: black;
+    top: 195px;
+    left: 49%;
+    opacity: 0.8;
+    transform-origin:bottom ;
+}
+#minute{ 
+    width: 1.5%;
+    height: 25%;
+    color: black;
+    top: 150px;
+    left: 49.5%;
+    opacity: 0.8;
+    transform-origin:bottom ;
+ 
+}
+#secound{
+    width: 1%;
+    height: 30%;
+    color: black;
+    top: 120px;
+    left: 49.5%;
+    opacity: 0.8;
+    transform-origin:bottom ;
+} 
